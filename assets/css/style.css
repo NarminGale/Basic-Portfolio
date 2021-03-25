@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  background: url(../images/background-3.jpg) center center/cover no-repeat;
+}
+.navbar {
+  border-bottom: 0.15rem solid black;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.my-name {
+  background: #636366;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 2rem 4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu ul {
+  display: flex;
+  width: 300px;
+  font-size: 1.2rem;
+  justify-content: space-around;
+}
+.menu ul li + li {
+  border-left: 1px solid grey;
+  padding-left: 1.5rem;
+}
+.menu ul li a {
+  color: gray;
+}
+/* Container */
+.container {
+  width: 960px;
+  margin: 2.5rem auto;
+  background: white;
+  height: 200px;
+}
