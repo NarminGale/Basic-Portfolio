@@ -111,3 +111,13 @@ aside a img {
   display: block;
   object-fit: cover;
 }
+/* footer */
+footer {
+  background: #777;
+  color: white;
+  height: 5rem;
+  border-top: 8px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
