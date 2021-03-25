@@ -66,10 +66,11 @@ article {
   border-bottom: 0.2rem solid gray;
   margin-bottom: 1.7rem;
 }
-.main .my-img {
+.aboutme .my-img {
   height: 170px;
   width: 200px;
   float: left;
+  margin-right: 1rem;
 }
 img {
   height: 100%;
@@ -158,4 +159,35 @@ footer {
   bottom: 10px;
   padding: 1.2rem;
   text-align: center;
+}
+/* Contact */
+label,
+input {
+  display: block;
+}
+label {
+  text-transform: capitalize;
+  color: #777;
+}
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+input {
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+}
+label {
+  margin-bottom: 0.5rem;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  background: gray;
+  color: white;
 }
