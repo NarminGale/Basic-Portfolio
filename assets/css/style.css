@@ -4,7 +4,7 @@
 body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background: url(../images/background.jpg) center center/cover no-repeat;
+  background: url(../images/background-2.jpeg) center center/cover no-repeat;
 }
 a {
   text-decoration: none;
@@ -20,12 +20,12 @@ a {
 header {
   position: fixed;
   width: 100%;
-  border-bottom: 0.15rem solid black;
+  border-bottom: 0.15rem solid #cccccc;
   background: white;
   z-index: 99;
 }
 .my-name {
-  background: #777;
+  background: #4aaaa5;
   color: white;
   font-size: 1.7rem;
   font-weight: bold;
@@ -34,16 +34,16 @@ header {
 }
 nav ul {
   display: flex;
-  width: 280px;
-  font-size: 1.2rem;
-  justify-content: space-around;
+  width: 250px;
+  font-size: 1.1rem;
+  justify-content: space-between;
 }
 nav ul li + li {
-  border-left: 1px solid grey;
+  border-left: 1px solid #efefef;
   padding-left: 1.25rem;
 }
 nav ul li a {
-  color: gray;
+  color: #999;
 }
 
 /* Main Container */
@@ -52,25 +52,25 @@ article {
   padding-bottom: 40px;
 }
 .main {
-  width: 630px;
+  width: 645px;
   background-color: white;
-  border: 1px solid grey;
+  border: 1px solid#dddddd;
   padding: 1.7rem;
 }
 .main h2 {
-  color: gray;
+  color: #4aaaa5;
   font-weight: bold;
   font-size: 2rem;
   text-transform: capitalize;
   padding-bottom: 1.7rem;
-  border-bottom: 0.2rem solid gray;
+  border-bottom: 0.2rem solid #ddd;
   margin-bottom: 1.7rem;
 }
 .aboutme .my-img {
   height: 170px;
   width: 200px;
   float: left;
-  margin-right: 1rem;
+  margin-right: 25px;
 }
 img {
   height: 100%;
@@ -87,20 +87,20 @@ img {
   padding-top: 1.7rem;
 }
 aside {
-  border: 1px solid grey;
-  width: 285px;
+  border: 1px solid #dddddd;
+  width: 275px;
   background: white;
   max-height: 200px;
   padding: 1.7rem;
   align-self: flex-start;
 }
 aside h3 {
-  color: gray;
+  color: #4aaaa5;
   font-weight: bold;
   font-size: 1.3rem;
   text-transform: capitalize;
   padding-bottom: 1.2rem;
-  border-bottom: 0.15rem solid gray;
+  border-bottom: 0.15rem solid #ddd;
   margin-bottom: 1.7rem;
 }
 aside a {
@@ -118,10 +118,11 @@ aside a img {
 /* footer */
 footer {
   width: 100%;
-  background: #777;
-  color: white;
+  background: #666666;
+  color: #ccc;
+  font-size: 12px;
   height: 5rem;
-  border-top: 8px solid white;
+  border-top: 8px solid #4aaaa5;
   display: flex;
   justify-content: center;
   align-items: center;
