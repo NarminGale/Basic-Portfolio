@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 /* Main Container */
-article {
+section {
   padding-top: 130px;
   padding-bottom: 40px;
 }
@@ -152,7 +152,7 @@ footer {
 }
 .my-img .label {
   width: 100%;
-  background: #777;
+  background: #4aaaa5;
   color: white;
   text-transform: capitalize;
   font-size: 1.2rem;
@@ -189,6 +189,6 @@ button {
   border: none;
   font-size: 18px;
   cursor: pointer;
-  background: gray;
+  background: #4aaaa5;
   color: white;
 }
